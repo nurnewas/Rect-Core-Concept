@@ -1,12 +1,26 @@
 import "./App.css";
 
-
 function App() {
   return (
     <>
       <h1>Hello</h1>
       <Person />
       {/* <Developer /> */}
+      <Device name="Mobile" />
+      <Device name="Laptop" />
+    </>
+  );
+}
+
+function Device(props) {
+  console.log(props);
+  return (
+    <>
+      <div className="device">
+        <h2> This is a device</h2>
+        <p>This is a smart device</p>
+        <i>Let's make life easier</i>
+      </div>
     </>
   );
 }
@@ -19,5 +33,6 @@ function Person() {
     </div>
   );
 }
+
 
 export default App;
