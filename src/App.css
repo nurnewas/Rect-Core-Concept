@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: solid 1px #ccc;
+  padding: 1rem;
+}
+.developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border: solid 1px pink;
+  padding: 1rem;
+  margin: 1rem 0;
+}
