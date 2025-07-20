@@ -1,13 +1,11 @@
 import "./App.css";
+import Todo from "./todo.jsx";
 
 function App() {
   return (
     <>
       <h1>Hello</h1>
-      <Person />
-      {/* <Developer /> */}
-      <Device name="Mobile" />
-      <Device name="Laptop" />
+      <Todo />
     </>
   );
 }
@@ -33,6 +31,5 @@ function Person() {
     </div>
   );
 }
-
 
 export default App;
