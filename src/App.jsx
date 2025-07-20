@@ -5,10 +5,11 @@ function App() {
   return (
     <>
       <h1>Hello</h1>
-      <Todo />
-      <Todo />
-      <Todo task="Learn React" isDone={false} />
-      <Todo task="Learn React" isDone={true} />
+
+      <Todo task="learning React:" isDone={false} />
+      <Todo task="learning React:" isDone={true} />
+      <Todo task="learning React:" isDone={false} />
+      <Todo task="learning React:" isDone={true} />
     </>
   );
 }
